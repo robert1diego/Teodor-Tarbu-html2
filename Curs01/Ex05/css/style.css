@@ -1,0 +1,41 @@
+ul a {
+  text-decoration: none;
+}
+ul a:hover {
+  color: green;
+}
+ul a:active {
+  color: purple;
+}
+ul a:visited {
+  color: green;
+}
+
+.para {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.reverse .para {
+  width: 50%;
+  padding: 0;
+}
+
+.para-short {
+  width: 50%;
+  margin: 0 auto;
+}
+.reverse .para-short {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.all-visited li a {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=style.css.map */

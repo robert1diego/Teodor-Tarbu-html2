@@ -1,0 +1,54 @@
+ul {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: green;
+    }
+
+    &:active {
+      color: purple;
+    }
+
+    &:visited {
+      color: green;
+    }
+  }
+}
+
+.para {
+  padding: {
+    top: 10px;
+    bottom: 10px;
+    right: 20px;
+    left: 20px;
+  }
+
+  .reverse & {
+    width: 50%;
+    padding: 0;
+  }
+}
+
+.para-short {
+  width: 50%;
+  margin: 0 auto;
+
+  .reverse & {
+    width: 100%;
+    padding: {
+      top: 10px;
+      bottom: 10px;
+      right: 20px;
+      left: 20px;
+    }
+  }
+}
+
+li {
+  a {
+    .all-visited & {
+      text-decoration: line-through;
+    }
+  }
+}
