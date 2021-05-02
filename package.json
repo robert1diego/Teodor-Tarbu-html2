@@ -1,0 +1,24 @@
+{
+  "name": "Teodor-Tarbu-html2-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert1diego/Teodor-Tarbu-html2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert1diego/Teodor-Tarbu-html2/issues"
+  },
+  "homepage": "https://github.com/robert1diego/Teodor-Tarbu-html2#readme",
+  "description": ""
+}

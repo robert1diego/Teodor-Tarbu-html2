@@ -3,7 +3,7 @@ ul {
     text-decoration: none;
 
     &:hover {
-      color: green;
+      color: red;
     }
 
     &:active {
@@ -12,6 +12,16 @@ ul {
 
     &:visited {
       color: green;
+    }
+  }
+}
+
+ol {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: magenta;
     }
   }
 }

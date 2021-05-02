@@ -1,0 +1,16 @@
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+/*# sourceMappingURL=app.css.map */

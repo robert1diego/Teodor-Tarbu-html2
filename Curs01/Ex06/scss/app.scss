@@ -18,7 +18,7 @@
 }
 
 .square {
-  @include square();
+  @include square(purple);
 }
 
 .square-magenta {
