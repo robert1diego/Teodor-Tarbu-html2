@@ -9,3 +9,10 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+$borderstyles: dotted, solid, dashed, double, none;
+@each $borderStyles in $borderStyles {
+  .b-#{$borderStyle} {
+    border-style: $borderStyles;
+  }
+}

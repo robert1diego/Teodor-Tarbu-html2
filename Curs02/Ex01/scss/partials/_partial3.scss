@@ -1,0 +1,6 @@
+$brand-main: pink;
+
+.brand-special {
+  background-color: &brand-neutral;
+  color: $brand-neutral;
+}

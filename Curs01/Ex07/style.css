@@ -1,2 +1,9 @@
-@mixin {
+@mixin mq-sm-down {
+  @medi (max-width: 500px) {
+    @content;
+  }
+}
+
+.box-2 {
+  display: none;
 }

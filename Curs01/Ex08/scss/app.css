@@ -1,0 +1,29 @@
+.square, .square-magenta, .square-peru, .square-purple {
+  width: 200px;
+  height: 200px;
+  background-color: turquoise;
+  border: 1px solid black;
+}
+
+.squares {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.square-magenta {
+  background-color: magenta;
+}
+
+.square-peru {
+  background-color: peru;
+}
+
+.square-purple {
+  background-color: purple;
+}
+/*# sourceMappingURL=app.css.map */
