@@ -1,17 +1,16 @@
-/* Error: expected ";".
- *   ,
- * 1 | @import 'variables' @import 'partials/partial1' @import 'partials/partial2'
- *   |                     ^
- *   '
- *   scss/app.scss 1:21  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected \";\".\a   \2577 \a 1 \2502  @import 'variables' @import 'partials/partial1' @import 'partials/partial2'\a   \2502                      ^\a   \2575 \a   scss/app.scss 1:21  root stylesheet";
+.brand {
+  color: gray;
+  background-color: red;
 }
+
+.brand-inverted {
+  background-color: gray;
+  color: blue;
+}
+
+.brand-special {
+  background-color: pink;
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
