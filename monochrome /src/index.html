@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Welcome to the Pixellab Builder</title>
+</head>
+
+<body>
+  <div>
+    <!-- simple HTML templating also works, wrap it inside an element to fool the formatter-->
+    <%= require('html-loader!./html/nav.html')%>
+  </div>
+  <h1>Pixellab static website builder</h1>
+  <!-- images are weird, but it's worth it ;) -->
+  <img src="<%= require('./logo.png').default %>">
+</body>
+
+</html>
