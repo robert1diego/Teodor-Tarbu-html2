@@ -1,5 +1,5 @@
 {
-  "name": "pixellab-webpack-builder",
+  "name": "monochrome",
   "version": "1.0.0",
   "description": "Create a super simple static site with modern JS and Sass or CSS, without a backend",
   "scripts": {
