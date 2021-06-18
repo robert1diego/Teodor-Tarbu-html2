@@ -9,6 +9,10 @@
   >
   <!-- CSS only -->
   <link
+    href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    rel="stylesheet"
+  />
+  <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
     rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
@@ -17,13 +21,40 @@
   <title>monochrome</title>
 </head>
 
-<body>
-  <div>
-    <!-- simple HTML templating also works, wrap it inside an element to fool the formatter-->
-    <%= require('html-loader!./html/nav.html')%>
-  </div>
-  <h1>monochrome</h1>
-  <!-- images are weird, but it's worth it ;) -->
+<body class="homepage">
+  <header class="header-container">
+    <%= require('html-loader!./html/header.html')%>
+  </header>
+
+  <main class="main">
+    <header class="banner-main">
+      <%= require('html-loader!./html/homepage/carousel.html')%>
+    </header>
+
+    <main class="content-main">
+      <section class="catalog-preview-container">
+        <header>
+
+        </header>
+
+        <main class="product-tiles">
+          <%= require('html-loader!./html/homepage/catalog-preview-01.html')%>
+        </main>
+
+        <footer>
+
+        </footer>
+      </section>
+      <!-- /.catalog-preview -->
+      <%= require('html-loader!./html/homepage/footer-mdl.html')%>
+      <%= require('html-loader!./html/homepage/most-loved.html')%>
+      <%= require('html-loader!./html/homepage/new-staff.html')%>
+    </main>
+  </main>
+
+  <footer class="footer">
+    <%= require('html-loader!./html/footer.html')%>
+  </footer>
 
 
 
