@@ -7,24 +7,26 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
+  <link
+    href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    rel="stylesheet"
+  />
   <title>monochrome</title>
 </head>
 
 <body>
-  <div>
-    <%= require('html-loader!./html/nav.html')%>
-  </div>
+
 
   <header class="header">
-
+    <%= require('html-loader!./html/header.html')%>
   </header>
 
   <main class="main">
-
+    <%= require('html-loader!./html/hompage/main.html')%>
   </main>
 
   <footer class="footer">
-
+    <%= require('html-loader!./html/footer.html')%>
   </footer>
 
 </body>
