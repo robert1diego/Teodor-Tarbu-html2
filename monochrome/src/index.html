@@ -11,23 +11,26 @@
     href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
     rel="stylesheet"
   />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  >
   <title>monochrome</title>
 </head>
 
-<body>
-
-
+<body class="homepage">
   <header class="header container">
     <%= require('html-loader!./html/header.html')%>
   </header>
 
-  <main class="main">
-    <%= require('html-loader!./html/hompage/catalog-new-staff.html')%>
-    <%= require('html-loader!./html/hompage/catalog-most-loved.html')%>
-    <%= require('html-loader!./html/hompage/newsletter.html')%>
-    <%= require('html-loader!./html/hompage/catalog-mens.html')%>
-    <%= require('html-loader!./html/hompage/catalog-women.html')%>
-
+  <main class="content-main">
+    <section class="catalog-preview-container">
+      <%= require('html-loader!./html/homepage/catalog-new-staff.html')%>
+      <%= require('html-loader!./html/homepage/catalog-most-loved.html')%>
+      <%= require('html-loader!./html/homepage/home-marketing.html')%>
+      <%= require('html-loader!./html/homepage/catalog-mens.html')%>
+      <%= require('html-loader!./html/homepage/catalog-women.html')%>
+    </section>
   </main>
 
   <footer class="footer">

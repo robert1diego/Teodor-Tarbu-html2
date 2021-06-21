@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --grey: #e8e8e8;
+}
+
+*::selection {
+  background: var(--grey);
+  color: #ffffff;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+}
+
+.header {
+  background: url(./images/banner.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+
+.share {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.nav-bar,
+ul {
+  display: flex;
+  justify-content: space-around;
+}
