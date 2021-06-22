@@ -1,15 +1,13 @@
 .header {
   margin-top: 35px;
-  width: auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.share {
+.social-contact ul {
   display: flex;
-  justify-content: space-around;
-}
-
-.icons {
-  display: flex;
-  justify-content: space-around;
-  height: 200px;
+  justify-content: center;
+  align-items: baseline;
 }
